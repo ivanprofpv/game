@@ -112,7 +112,7 @@ class Game
     sleep(1)
 
     if player.is_a?(User)
-      puts "Ваша рука:"
+      puts "Рука #{player.class}:"
       @user.show_cards
     end
 
