@@ -32,7 +32,7 @@ class Player
 
   def show_cards
     @hand.show
-    puts "Очков: #{@points}"
+    puts "Очков: #{@points}, денег #{@bank}"
   end
 
   def add_points(card)
